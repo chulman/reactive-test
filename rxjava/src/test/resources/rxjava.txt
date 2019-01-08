@@ -1,0 +1,34 @@
+
+1.Observerable or Flowable : producer
+
+/*
+subscribe() 함수와 Disposal 객체
+subscribe() : 이 함수가 호출이 되면 발행을 시작합니다
+dispose() : Observable에게 더 이상 데이터를 발행하지 않도록 하는 구독을 해지하는 함수입니다.
+create() : just() 함수는 데이터를 인자로 넣으면 자동으로 알림 이벤트가 발생하지만, create() 함수는 onNext(), onComplete, onError() 같은 알림을 직접 호출해야 합니다
+*/
+
+2. Observer or Subscriber : sbuscriber
+
+
+/**
+ * based Observer Pattern
+ * onNext : 새로운 데이터를 전달한다.
+ * onCompleted : 스트림의 종료.
+ * onError : 에러 신호를 전달한다.
+ */
+
+
+3. Subject or Processor : implements producer and consumer
+4. Operation : en-route data transform
+
+
+
+
+Hot Observable vs Cold Observavle
+Hot Observable : 구독자의 존재 여부 없이 데이터를 발행 ex) 센서 이벤트, 입력 이벤트
+Cold Observable : 구독자가 subscribe() 함수를 구독하기 전까지는 데이터를 발행하지 않음 ex) 웹 요청, 데이터베이스 관련 요청
+
+- AsyncSubject
+- BehaviorSubject
+- PublishSubject
