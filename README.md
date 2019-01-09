@@ -23,3 +23,7 @@ example rxjava and spring5 webflux.
 - HandlerFunction은 함수형 스타일의 웹 핸들러이며, 요청을 받아 응답을 돌려주는 함수 (handle data, create response)
 
 
+# Mono, Flux
+
+- Mono는 0-1개의 결과만을 처리하는 Reactor 객체
+- Flux는 0-N개인 여러 개의 결과를 처리하는 객체
