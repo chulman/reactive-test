@@ -1,0 +1,10 @@
+description 'webflux-test'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-webflux')
+    compileOnly('org.projectlombok:lombok')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
