@@ -1,4 +1,4 @@
-package com.chulm.reactive.rxjava;
+package com.chulman.reactive.rxjava;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;

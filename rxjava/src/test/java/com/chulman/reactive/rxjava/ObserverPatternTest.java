@@ -1,4 +1,4 @@
-package com.chulm.reactive.rxjava;
+package com.chulman.reactive.rxjava;
 
 import org.junit.Test;
 

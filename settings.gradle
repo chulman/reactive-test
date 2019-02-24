@@ -1,3 +1,4 @@
 rootProject.name = 'reactive'
+include 'mvc'
 include 'rxjava'
 include 'webflux'

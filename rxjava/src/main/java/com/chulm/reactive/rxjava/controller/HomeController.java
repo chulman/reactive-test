@@ -2,8 +2,6 @@ package com.chulm.reactive.rxjava.controller;
 
 import com.chulm.reactive.rxjava.sample.User;
 import com.chulm.reactive.rxjava.sample.UserSearchService;
-import io.reactivex.Observer;
-import io.reactivex.disposables.Disposable;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
