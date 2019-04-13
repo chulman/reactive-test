@@ -1,4 +1,4 @@
-package com.chulman.mvc.pojo;
+package com.chulman.mvc.sequence.pojo;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

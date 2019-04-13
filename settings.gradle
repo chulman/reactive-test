@@ -1,4 +1,4 @@
-rootProject.name = 'reactive'
+rootProject.name = 'spring-starter'
 include 'mvc'
 include 'rxjava'
 include 'webflux'

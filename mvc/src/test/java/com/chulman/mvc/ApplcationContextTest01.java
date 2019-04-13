@@ -1,7 +1,7 @@
 package com.chulman.mvc;
 
-import com.chulman.mvc.config.SeqGenConfig;
-import com.chulman.mvc.pojo.SequenceGenerator;
+import com.chulman.mvc.sequence.config.SeqGenConfig;
+import com.chulman.mvc.sequence.pojo.SequenceGenerator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

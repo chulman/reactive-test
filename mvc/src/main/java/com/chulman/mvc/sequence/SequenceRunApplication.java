@@ -1,16 +1,14 @@
-package com.chulman.mvc;
+package com.chulman.mvc.sequence;
 
-import com.chulman.mvc.pojo.SequenceDao;
-import com.chulman.mvc.pojo.SequenceGenerator;
+import com.chulman.mvc.sequence.pojo.SequenceDao;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 @SpringBootApplication
-public class MvcRunApplication {
+public class SequenceRunApplication {
     public static void main(String[] args) {
-        ApplicationContext context = SpringApplication.run(MvcRunApplication.class, args);
+        ApplicationContext context = SpringApplication.run(SequenceRunApplication.class, args);
         SequenceDao dao = context.getBean("SequenceDao",SequenceDao.class);
         System.err.println(dao.getSequnce());
     }

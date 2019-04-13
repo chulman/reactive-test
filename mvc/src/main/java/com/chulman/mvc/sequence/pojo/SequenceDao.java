@@ -1,4 +1,4 @@
-package com.chulman.mvc.pojo;
+package com.chulman.mvc.sequence.pojo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
