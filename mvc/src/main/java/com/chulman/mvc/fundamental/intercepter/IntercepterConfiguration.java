@@ -14,9 +14,10 @@ public class IntercepterConfiguration implements WebMvcConfigurer {
     }
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(fundmentalIntercepter()).addPathPatterns("/welcome/*/*").excludePathPatterns("/anybody");
-//        registry.addInterceptor(fundmentalIntercepter());
+        registry.addInterceptor(fundmentalIntercepter())
+                .addPathPatterns("/welcome/*/*")
+                .excludePathPatterns("/anybody");
+
+        registry.addInterceptor(fundmentalIntercepter());
     }
-
-
 }

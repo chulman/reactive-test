@@ -5,5 +5,8 @@ apply plugin: 'io.spring.dependency-management'
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.apache.tomcat.embed:tomcat-embed-jasper')
+    compile('javax.servlet:jstl:1.2')
+    compile("org.springframework.boot:spring-boot-devtools")
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
