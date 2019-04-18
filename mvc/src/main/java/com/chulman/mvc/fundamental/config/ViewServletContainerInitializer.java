@@ -16,7 +16,7 @@ public class ViewServletContainerInitializer implements ServletContainerInitiali
     @Override
     public void onStartup(Set<Class<?>> c, ServletContext ctx) throws ServletException {
         AnnotationConfigWebApplicationContext applicationContext = new AnnotationConfigWebApplicationContext();
-        applicationContext.register(VIewResolverConfig.class);
+        applicationContext.register(ViewResolverConfig.class);
 
         DispatcherServlet dispatcherServlet = new DispatcherServlet(applicationContext);
         ServletRegistration.Dynamic courtRegistration = ctx.addServlet("court", dispatcherServlet);
