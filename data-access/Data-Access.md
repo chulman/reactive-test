@@ -11,6 +11,9 @@
 ### JDBC Template
 
 - 여러 유형의 jdbc 작업을 템플릿으로 묶음
+- 대부분의 jdbc API는 반드시 붙잡아 처리해야 하는 sqlException을 던지도록 선언
+- jdbc template에서 발생하는 모든 예외는 RuntimeException을 상속한 DataAccessException의 하위 클래스라 붙잡을 필요가 없다.
+
 
 
 ### Hibernate

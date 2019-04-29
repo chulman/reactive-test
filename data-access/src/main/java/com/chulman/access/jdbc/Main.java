@@ -1,5 +1,8 @@
-package com.chulman.access.jdbc.vehicle;
+package com.chulman.access.jdbc;
 
+import com.chulman.access.jdbc.vehicle.Vehicle;
+import com.chulman.access.jdbc.vehicle.VehicleConfiguration;
+import com.chulman.access.jdbc.vehicle.VehicleDao;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

@@ -1,13 +1,15 @@
 package com.chulman.access.jdbc.vehicle;
-
-
-//CREATE TABLE BEHECLE {
+//
+//
+//
+//CREATE TABLE VEHICLE
+//        (
 //        VEHICLE_NO VARCHAR(10) NOT NUll,
-//        COLOR VARCHAR(10),
-//        WHEEL INT,
-//        SEAT INT,
-//        PRIMARYKEY(VEHICLE_NO)
-//        }
+//        COLOR      VARCHAR(10),
+//        WHEEL      INT,
+//        SEAT       INT,
+//        PRIMARY KEY(VEHICLE_NO)
+//        )
 
 public class Vehicle {
 
@@ -15,6 +17,9 @@ public class Vehicle {
     private String color;
     private int wheel;
     private int seat;
+
+    public Vehicle() {
+    }
 
     public Vehicle(String vehicleNo, String color, int wheel, int seat) {
         this.vehicleNo = vehicleNo;
