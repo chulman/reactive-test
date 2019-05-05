@@ -1,0 +1,8 @@
+<!-- 하이버네이트를 객체 엔진삼아 저장 -->
+
+<persistence-unit name="course" transaction-type="RESOURCE_LOCAL">
+    <class></class>
+    <properties>
+        <!--....-->
+    </properties>
+</persistence-unit>

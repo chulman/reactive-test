@@ -1,0 +1,11 @@
+<!-- XML로 객체 매핑하기 -->
+
+<hibernate-mapping package="com.chulman.access.jpa.course">
+    <class name="Course" table="COURSE">
+        <id name="id" type="long" column="id">
+            <generator class="identity"></generator>
+        </id>
+    </class>
+<!--........-->
+
+</hibernate-mapping>
