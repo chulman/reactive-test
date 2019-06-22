@@ -1,4 +1,4 @@
-package com.chulman.access.transaction;
+package com.chulman.access.transaction.bookshop;
 
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -10,11 +10,14 @@ import org.springframework.transaction.support.TransactionCallback;
 import org.springframework.transaction.support.TransactionCallbackWithoutResult;
 import org.springframework.transaction.support.TransactionTemplate;
 
-public class TransactionTemplateDao {
+/**
+ * Transaction Template을 사용해서 트랜잭션 관리하기
+ */
+public class TransactionTemplateBookShop {
 
     private PlatformTransactionManager platformTransactionManager;
 
-    public TransactionTemplateDao(PlatformTransactionManager platformTransactionManager){
+    public TransactionTemplateBookShop(PlatformTransactionManager platformTransactionManager){
         this.platformTransactionManager = platformTransactionManager;
     }
 

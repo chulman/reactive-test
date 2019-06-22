@@ -10,4 +10,5 @@ dependencies {
     compile('javax.validation:validation-api')
     runtime('com.h2database:h2')
     compile('mysql:mysql-connector-java')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
 }
