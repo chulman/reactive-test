@@ -11,6 +11,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.jdbc.datasource.init.DatabasePopulator;
 import org.springframework.jdbc.datasource.init.DatabasePopulatorUtils;
 import org.springframework.jdbc.datasource.init.ResourceDatabasePopulator;
+import org.springframework.transaction.support.TransactionTemplate;
 
 import javax.sql.DataSource;
 
@@ -43,13 +44,22 @@ public class TransactionConfig {
         return dataSourceTransactionManager;
     }
 
+    // transactionTemplate은 thread-safe 한 객체
+    @Bean
+    public TransactionTemplate transactionTemplate(){
+        return new TransactionTemplate(dataSourceTransactionManager());
+    }
+
     @Bean
     public BookShop bookShop(){
         TransactionalJdbcBookShop shop = new TransactionalJdbcBookShop();
         shop.setDataSource(dataSource());
         shop.setTransactionManager(dataSourceTransactionManager());
+        shop.setTransactionTemplate(transactionTemplate());
         return shop;
     }
+
+
 
 
 }
