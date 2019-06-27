@@ -10,9 +10,6 @@
 - JPA
 - jdbc
 - transaction
-- batch
-- NOSQL
-- test ..
 
 
 - another rx library
