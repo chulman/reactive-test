@@ -1,11 +1,9 @@
-package com.chulman.access.transaction.bookshop;
+package com.chulman.access.transaction.inner;
 
-import org.springframework.dao.DataAccessException;
+import com.chulman.access.transaction.bookshop.BookShop;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.transaction.PlatformTransactionManager;
-import org.springframework.transaction.TransactionDefinition;
 import org.springframework.transaction.TransactionStatus;
-import org.springframework.transaction.support.DefaultTransactionDefinition;
 import org.springframework.transaction.support.TransactionCallbackWithoutResult;
 import org.springframework.transaction.support.TransactionTemplate;
 

@@ -1,6 +1,7 @@
-package com.chulman.access.transaction.bookshop;
+package com.chulman.access.transaction.inner;
 
-import com.chulman.access.transaction.bookshop.config.TransactionConfig;
+import com.chulman.access.transaction.bookshop.BookShop;
+import com.chulman.access.transaction.config.TransactionConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

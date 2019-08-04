@@ -1,6 +1,6 @@
 package com.chulm.access;
 
-import com.chulman.access.transaction.bookshop.config.TransactionConfig;
+import com.chulman.access.transaction.config.TransactionConfig;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.ContextConfiguration;
