@@ -4,6 +4,8 @@ apply plugin: 'io.spring.dependency-management'
 
 
 dependencies {
+    compile('org.springframework.boot:spring-boot-starter-aop')
     compile('org.springframework.boot:spring-boot-starter-web')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    compileOnly('org.projectlombok:lombok')
 }
