@@ -1,15 +1,22 @@
 # Spring Practice Project
 
-- core
-- aop
-- mvc
-- rest
-- webflux
-- security
-- mobile
-- JPA
-- jdbc
-- transaction
 - cache
+    + fundamental
+    + redis-cache
+    + caffeine-cache
+- core
+    + aop
+- data-access
+    + jdbc
+    + jpa
+    + transaction
+- mvc
+    + fundamental
+    + rest
+    
+- rxjava with mvc
+- webflux
 
-- another rx library
+
+---
+@ 스프링 레시피 5
