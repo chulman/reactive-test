@@ -1,4 +1,4 @@
-package com.chulman.cache.redis.cache;
+package com.chulman.cache.redis;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
