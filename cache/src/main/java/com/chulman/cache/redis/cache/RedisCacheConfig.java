@@ -1,4 +1,4 @@
-package com.chulman.access.redis.cache;
+package com.chulman.cache.redis.cache;
 
 import io.lettuce.core.ClientOptions;
 import org.springframework.beans.factory.annotation.Value;

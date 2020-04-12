@@ -1,11 +1,9 @@
-package com.chulman.access.redis.cache;
+package com.chulman.cache.redis.cache;
 
-import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 

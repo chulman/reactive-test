@@ -1,4 +1,4 @@
-package com.chulman.access.redis.cache;
+package com.chulman.cache.redis.cache;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
