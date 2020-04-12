@@ -7,5 +7,6 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-data-redis')
     compile('org.springframework.boot:spring-boot-starter-cache')
+    compile('com.github.ben-manes.caffeine:caffeine:2.8.1')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
