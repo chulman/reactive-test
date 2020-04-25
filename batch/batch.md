@@ -10,8 +10,9 @@
 - recipe 11-8 : 잡 실행
 - recipe 11-9 : 잡을 매개변수화
 
-   
 
+### 개념 참조   
+> https://joont92.github.io/spring/Spring-Batch/ 
 
 # spring-batch
 
